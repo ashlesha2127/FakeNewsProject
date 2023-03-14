@@ -24,7 +24,7 @@ mail = Mail(app)
 
 
 # reading the dataset from excel file
-df = pd.read_excel("Static/DatasetsUsed/Train.xlsx")
+df = pd.read_excel("Train.xlsx")
 y_train = df['Label']
 x_train = df['News']
 
