@@ -58,9 +58,9 @@ def feedback():
     Feedback = request.form.get('Feedback')
 
     msg = Message("Feedback for Fake News Detection Website",
-            sender="senders_mail@gmail.com",
-            recipients=["receiver1@gmail.com","receiver2@gmail.com",
-                        "receiver3@gmail.com","receiver4@gmail.com"])
+            sender="kuchipudiash21@gmail.com",
+            recipients=["21b01a5458@gmail.com","21b01a5437@gmail.com",
+                        "21b01a5402@gmail.com","21b01a5432@gmail.com"])
 
     msg.body = '''Hey developers,
     A Client just viewed your website. The Details of feedback are:
